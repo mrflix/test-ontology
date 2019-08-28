@@ -325,6 +325,11 @@
 <http://example.com/schema/notifiedTimestamp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <http://example.com/schema/notifiedTimestamp> <http://www.w3.org/2000/01/rdf-schema#label> "Notified Timestamp" .
 <http://example.com/schema/notifiedTimestamp> <http://www.w3.org/2004/02/skos/core#note> "A time stamp for the notification of the status update ." .
+<http://example.com/schema/ogImage> <http://schema.org/domainIncludes> <http://example.com/schema/Port> .
+<http://example.com/schema/ogImage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/schema/ogImage> <http://www.w3.org/2000/01/rdf-schema#comment> "Ut non aliquip velit ea velit cupidatat amet aliqua." .
+<http://example.com/schema/ogImage> <http://www.w3.org/2000/01/rdf-schema#label> "og:image" .
+<http://example.com/schema/ogImage> <http://www.w3.org/2004/02/skos/core#note> "Mollit sint amet nostrud laborum dolore in in sed ex. In sit sit aliquip in sit dolore non sit deserunt ullamco proident velit mollit sunt incididunt. Ut non aliquip velit ea velit cupidatat amet aliqua voluptate ad ut nostrud velit fugiat ut."^^<http://media-type.described.at/text/markdown> .
 <http://example.com/schema/origin> <http://schema.org/domainIncludes> <http://example.com/schema/AirStatusUpdate> .
 <http://example.com/schema/origin> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#string> .
 <http://example.com/schema/origin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
